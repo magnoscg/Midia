@@ -1,0 +1,766 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 40,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "qUW5js7ZD7UC",
+            "etag": "YRKxDoXN394",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/qUW5js7ZD7UC",
+            "volumeInfo": {
+                "title": "The Wise Man's Fear",
+                "subtitle": "The Kingkiller Chronicle:",
+                "authors": [
+                    "Patrick Rothfuss"
+                ],
+                "publisher": "Hachette UK",
+                "publishedDate": "2011-03-01",
+                "description": "Sequel to the extraordinary THE NAME OF THE WIND, THE WISE MAN'S FEAR is the second instalment of this superb fantasy trilogy from Patrick Rothfuss. This is the most exciting fantasy series since George R. R. Martin's A SONG OF ICE AND FIRE, and a must-read for all fans of HBO's GAME OF THRONES. Picking up the tale of Kvothe Kingkiller once again, we follow him into exile, into political intrigue, courtship, adventure, love and magic ... and further along the path that has turned Kvothe, the mightiest magician of his age, a legend in his own time, into Kote, the unassuming pub landlord. Packed with as much magic, adventure and home-grown drama as THE NAME OF THE WIND, this is a sequel in every way the equal to its predecessor and a must-read for all fantasy fans. Readable, engaging and gripping THE WISE MAN'S FEAR is the biggest and the best new fantasy novel out there.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780575088078"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0575088079"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 1008,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 322,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.19.16.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=qUW5js7ZD7UC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=qUW5js7ZD7UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.es/books?id=qUW5js7ZD7UC&printsec=frontcover&dq=kingskiller+inauthor:patrick&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=qUW5js7ZD7UC&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-qUW5js7ZD7UC"
+            },
+            "saleInfo": {
+                "country": "ES",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7.49,
+                    "currencyCode": "EUR"
+                },
+                "retailPrice": {
+                    "amount": 7.49,
+                    "currencyCode": "EUR"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=qUW5js7ZD7UC&rdid=book-qUW5js7ZD7UC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7490000,
+                            "currencyCode": "EUR"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 7490000,
+                            "currencyCode": "EUR"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "ES",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.es/books/download/The_Wise_Man_s_Fear-sample-epub.acsm?id=qUW5js7ZD7UC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=qUW5js7ZD7UC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "This is the most exciting fantasy series since George R. R. Martin&#39;s A SONG OF ICE AND FIRE, and a must-read for all fans of HBO&#39;s GAME OF THRONES."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "BcG2dVRXKukC",
+            "etag": "n8u6E1bO880",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/BcG2dVRXKukC",
+            "volumeInfo": {
+                "title": "The Name of the Wind",
+                "subtitle": "The Kingkiller Chronicle:",
+                "authors": [
+                    "Patrick Rothfuss"
+                ],
+                "publisher": "Hachette UK",
+                "publishedDate": "2010-04-22",
+                "description": "'I have stolen princesses back from sleeping barrow kings. I burned down the town of Trebon. I have spent the night with Felurian and left with both my sanity and my life. I was expelled from the University at a younger age than most people are allowed in. I tread paths by moonlight that others fear to speak of during day. I have talked to Gods, loved women, and written songs that make the minstrels weep. My name is Kvothe. You may have heard of me' So begins the tale of Kvothe - currently known as Kote, the unassuming innkeepter - from his childhood in a troupe of traveling players, through his years spent as a near-feral orphan in a crime-riddled city, to his daringly brazen yet successful bid to enter a difficult and dangerous school of magic. In these pages you will come to know Kvothe the notorious magician, the accomplished thief, the masterful musician, the dragon-slayer, the legend-hunter, the lover, the thief and the infamous assassin. The Name of the Wind is fantasy at its very best, and an astounding must-read title.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780575087057"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0575087056"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 672,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 3401,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.19.15.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=BcG2dVRXKukC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=BcG2dVRXKukC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.es/books?id=BcG2dVRXKukC&printsec=frontcover&dq=kingskiller+inauthor:patrick&hl=&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=BcG2dVRXKukC&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-BcG2dVRXKukC"
+            },
+            "saleInfo": {
+                "country": "ES",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "EUR"
+                },
+                "retailPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "EUR"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=BcG2dVRXKukC&rdid=book-BcG2dVRXKukC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 5490000,
+                            "currencyCode": "EUR"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5490000,
+                            "currencyCode": "EUR"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "ES",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.es/books/download/The_Name_of_the_Wind-sample-epub.acsm?id=BcG2dVRXKukC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=BcG2dVRXKukC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "You may have heard of me&#39; So begins the tale of Kvothe - currently known as Kote, the unassuming innkeepter - from his childhood in a troupe of traveling players, through his years spent as a near-feral orphan in a crime-riddled city, to ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "awVXPQAACAAJ",
+            "etag": "C5ogCId7HQw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/awVXPQAACAAJ",
+            "volumeInfo": {
+                "title": "Untitled Rothfuss 3 Of 3",
+                "authors": [
+                    "Patrick Rothfuss"
+                ],
+                "publisher": "Gollancz",
+                "publishedDate": "2013-04-01",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0575081465"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780575081468"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 896,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "language": "en",
+                "previewLink": "http://books.google.es/books?id=awVXPQAACAAJ&dq=kingskiller+inauthor:patrick&hl=&cd=3&source=gbs_api",
+                "infoLink": "http://books.google.es/books?id=awVXPQAACAAJ&dq=kingskiller+inauthor:patrick&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Untitled_Rothfuss_3_Of_3.html?hl=&id=awVXPQAACAAJ"
+            },
+            "saleInfo": {
+                "country": "ES",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "ES",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=awVXPQAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "dFVzAwAAQBAJ",
+            "etag": "W5HHnvxbiak",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/dFVzAwAAQBAJ",
+            "volumeInfo": {
+                "title": "The Slow Regard of Silent Things",
+                "subtitle": "A Kingkiller Chronicle Novella",
+                "authors": [
+                    "Patrick Rothfuss"
+                ],
+                "publisher": "Hachette UK",
+                "publishedDate": "2014-10-28",
+                "description": "The University, a renowned bastion of knowledge, attracts the brightest minds to unravel the mysteries of enlightened sciences like artificing and alchemy. Yet deep below its bustling halls lies a complex and cavernous maze of abandoned rooms and ancient passageways - and in the heart of it all lives Auri. Formerly a student at the University, now Auri spends her days tending the world around her. She has learned that some mysteries are best left settled and safe. No longer fooled by the sharp rationality so treasured by the University, Auri sees beyond the surface of things, into subtle dangers and hidden names. At once joyous and haunting, THE SLOW REGARD OF SILENT THINGS is a rich, atmospheric and lyrical tale, featuring one of the most beloved characters from Rothfuss' acclaimed fantasy series.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781473209343"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "147320934X"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 176,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 56,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.7.7.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=dFVzAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=dFVzAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.es/books?id=dFVzAwAAQBAJ&printsec=frontcover&dq=kingskiller+inauthor:patrick&hl=&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=dFVzAwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-dFVzAwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "ES",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "EUR"
+                },
+                "retailPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "EUR"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=dFVzAwAAQBAJ&rdid=book-dFVzAwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 5490000,
+                            "currencyCode": "EUR"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5490000,
+                            "currencyCode": "EUR"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "ES",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.es/books/download/The_Slow_Regard_of_Silent_Things-sample-epub.acsm?id=dFVzAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=dFVzAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "At once joyous and haunting, THE SLOW REGARD OF SILENT THINGS is a rich, atmospheric and lyrical tale, featuring one of the most beloved characters from Rothfuss&#39; acclaimed fantasy series."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "-j0svgEACAAJ",
+            "etag": "/Ire7NCWWik",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/-j0svgEACAAJ",
+            "volumeInfo": {
+                "title": "פחדיו של האדם החכם",
+                "authors": [
+                    "Patrick Rothfuss"
+                ],
+                "publisher": "Daw Books",
+                "publishedDate": "2013",
+                "description": "Kvothe continues on his quest to reclaim the honor of his family in the Fae realm and learn the truth about the death of his parents and Amyr, the Chandrian.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0756407915"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780756407919"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 1107,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 287,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=-j0svgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=-j0svgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.es/books?id=-j0svgEACAAJ&dq=kingskiller+inauthor:patrick&hl=&cd=5&source=gbs_api",
+                "infoLink": "http://books.google.es/books?id=-j0svgEACAAJ&dq=kingskiller+inauthor:patrick&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/%D7%A4%D7%97%D7%93%D7%99%D7%95_%D7%A9%D7%9C_%D7%94%D7%90%D7%93%D7%9D_%D7%94%D7%97%D7%9B%D7%9D.html?hl=&id=-j0svgEACAAJ"
+            },
+            "saleInfo": {
+                "country": "ES",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "ES",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=-j0svgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Kvothe continues on his quest to reclaim the honor of his family in the Fae realm and learn the truth about the death of his parents and Amyr, the Chandrian."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "bQVXPQAACAAJ",
+            "etag": "28qd1FSfAhE",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/bQVXPQAACAAJ",
+            "volumeInfo": {
+                "title": "Untitled Rothfuss 3 Of 3",
+                "authors": [
+                    "Patrick Rothfuss"
+                ],
+                "publisher": "Gollancz",
+                "publishedDate": "2012",
+                "description": "The third in 'The Kingkiller Chronicle' series of fantasy novels by Patrick Rothfuss.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0575081449"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780575081444"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 896,
+                "printType": "BOOK",
+                "categories": [
+                    "Fantasy fiction"
+                ],
+                "averageRating": 1,
+                "ratingsCount": 2,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "language": "en",
+                "previewLink": "http://books.google.es/books?id=bQVXPQAACAAJ&dq=kingskiller+inauthor:patrick&hl=&cd=6&source=gbs_api",
+                "infoLink": "http://books.google.es/books?id=bQVXPQAACAAJ&dq=kingskiller+inauthor:patrick&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Untitled_Rothfuss_3_Of_3.html?hl=&id=bQVXPQAACAAJ"
+            },
+            "saleInfo": {
+                "country": "ES",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "ES",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=bQVXPQAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "uOZhYgEACAAJ",
+            "etag": "wkhiU9/lWuM",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/uOZhYgEACAAJ",
+            "volumeInfo": {
+                "title": "El nombre del viento",
+                "authors": [
+                    "Patrick Rothfuss"
+                ],
+                "publisher": "DEBOLSILLO",
+                "publishedDate": "2011",
+                "description": "Atípica, profunda y sincera, El nombre del viento es una novela de aventuras, de historias dentro de otras historias, de misterio, de amistad, de amor, de magia y de superación. La novela que ha consagrado a Patrick Rothfuss como fenómeno editorial de los últimos años. En una posada en tierra de nadie, un hombre se dispone a relatar, por primera vez, la auténtica historia de su vida. Una historia que únicamente él conoce y que ha quedado diluida tras los rumores, las conjeturas y los cuentos de taberna que le han convertido en un personaje legendario a quien todos daban ya por muerto: Kvothe... músico, mendigo, ladrón, estudiante, mago, héroe y asesino. Ahora va a revelar la verdad sobre sí mismo. Y para ello debe empezar por el principio: su infancia en una troupe de artistas itinerantes, los años malviviendo como un ladronzuelo en las calles de una gran ciudad y su llegada a una universidad donde esperaba encontrar todas las respuestas que había estado buscando. «Viajé, amé, perdí, confié y me traicionaron.» «He robado princesas a reyes agónicos. Incendié la ciudad de Trebon. He pasado la noche con Felurian y he despertado vivo y cuerdo. Me expulsaron de la Universidad a una edad a la que a la mayoría todavía no los dejan entrar. He recorrido de noche caminos de los que otros no se atreven a hablar ni siquiera de día. He hablado con dioses, he amado a mujeres y he escrito canciones que hacen llorar a los bardos. »Me llamo Kvothe. Quizá hayas oído hablar de mí.»",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8499082475"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9788499082479"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 880,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 334,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=uOZhYgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=uOZhYgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.es/books?id=uOZhYgEACAAJ&dq=kingskiller+inauthor:patrick&hl=&cd=7&source=gbs_api",
+                "infoLink": "http://books.google.es/books?id=uOZhYgEACAAJ&dq=kingskiller+inauthor:patrick&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/El_nombre_del_viento.html?hl=&id=uOZhYgEACAAJ"
+            },
+            "saleInfo": {
+                "country": "ES",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "ES",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=uOZhYgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "I have talked to Gods, loved women, and written songs that make the minstrels weep. You may have heard of me. So begins a tale unequaled in fantasy literature--the story of a hero told in his own voice."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "BnZZMAAACAAJ",
+            "etag": "l22am/nOuuA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/BnZZMAAACAAJ",
+            "volumeInfo": {
+                "title": "Untitled Rothfuss 3 Of 3",
+                "authors": [
+                    "Patrick Rothfuss"
+                ],
+                "publisher": "Gollancz",
+                "publishedDate": "2012-04-01",
+                "description": "The third in 'The Kingkiller Chronicle' series of fantasy novels by Patrick Rothfuss.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0575081457"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780575081451"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 896,
+                "printType": "BOOK",
+                "categories": [
+                    "Fantasy fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "language": "en",
+                "previewLink": "http://books.google.es/books?id=BnZZMAAACAAJ&dq=kingskiller+inauthor:patrick&hl=&cd=8&source=gbs_api",
+                "infoLink": "http://books.google.es/books?id=BnZZMAAACAAJ&dq=kingskiller+inauthor:patrick&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Untitled_Rothfuss_3_Of_3.html?hl=&id=BnZZMAAACAAJ"
+            },
+            "saleInfo": {
+                "country": "ES",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "ES",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=BnZZMAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "SmU7rgEACAAJ",
+            "etag": "P2kDb6ALbOI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/SmU7rgEACAAJ",
+            "volumeInfo": {
+                "title": "El Arbol Del Relampago",
+                "authors": [
+                    "patrick rothfuss"
+                ],
+                "publishedDate": "2015-03-07",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1320893643"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781320893640"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=SmU7rgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=SmU7rgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.es/books?id=SmU7rgEACAAJ&dq=kingskiller+inauthor:patrick&hl=&cd=9&source=gbs_api",
+                "infoLink": "http://books.google.es/books?id=SmU7rgEACAAJ&dq=kingskiller+inauthor:patrick&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/El_Arbol_Del_Relampago.html?hl=&id=SmU7rgEACAAJ"
+            },
+            "saleInfo": {
+                "country": "ES",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "ES",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=SmU7rgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "SyCsoAEACAAJ",
+            "etag": "aHEQQvaRZy4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/SyCsoAEACAAJ",
+            "volumeInfo": {
+                "title": "The Princess and Mr. Whiffle Coloring Book",
+                "authors": [
+                    "Patrick Rothfuss",
+                    "Nate Taylor"
+                ],
+                "publishedDate": "2014-08-15",
+                "description": "A collection of black and white illustrations from Patrick Rothfuss's \"The Adventures of the Princess and Mr. Whiffle.\"",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0692240276"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780692240274"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 44,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=SyCsoAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=SyCsoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.es/books?id=SyCsoAEACAAJ&dq=kingskiller+inauthor:patrick&hl=&cd=10&source=gbs_api",
+                "infoLink": "http://books.google.es/books?id=SyCsoAEACAAJ&dq=kingskiller+inauthor:patrick&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Princess_and_Mr_Whiffle_Coloring_Boo.html?hl=&id=SyCsoAEACAAJ"
+            },
+            "saleInfo": {
+                "country": "ES",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "ES",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=SyCsoAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "A collection of black and white illustrations from Patrick Rothfuss&#39;s &quot;The Adventures of the Princess and Mr. Whiffle.&quot;"
+            }
+        }
+    ]
+}
