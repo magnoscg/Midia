@@ -10,7 +10,7 @@ import Foundation
 
 struct Movie {
     
-    let movieId: String
+    let movieId: Int
     let title: String
     let director: String?
     let releaseDate: Date?
@@ -22,7 +22,7 @@ struct Movie {
     let previewURL: URL?
     let rentalPrice: Float?
     
-    init(movieId: String,title: String, director: String? = nil ,releaseDate: Date? = nil,description: String? = nil ,coverURL: URL? = nil ,genreName: String? = nil ,country: String? = nil ,price: Float? = nil ,previewURL: URL? = nil, rentalPrice: Float? = nil ) {
+    init(movieId: Int ,title: String, director: String? = nil ,releaseDate: Date? = nil,description: String? = nil ,coverURL: URL? = nil ,genreName: String? = nil ,country: String? = nil ,price: Float? = nil ,previewURL: URL? = nil, rentalPrice: Float? = nil ) {
         self.movieId = movieId
         self.title = title
         self.director = director
@@ -59,7 +59,7 @@ extension Movie: Codable {
         
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
-        movieId = try container.decode(String.self, forKey: CodingKeys.movieId)
+        movieId = try container.decode( Int.self, forKey: CodingKeys.movieId)
         
         title = try container.decode(String.self, forKey: CodingKeys.title)
         director = try container.decode(String.self, forKey: CodingKeys.director)
@@ -86,7 +86,7 @@ extension Movie: Codable {
 
 extension Movie: MediaItemProvidable {
     var mediaItemId: String {
-        return movieId
+        return "\(movieId)"
     }
     
     var imageURL: URL? {
