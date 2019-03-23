@@ -59,10 +59,10 @@ extension Movie: Codable {
         
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
-        movieId = try container.decode( Int.self, forKey: CodingKeys.movieId)
+        movieId = try container.decode(Int.self, forKey: .movieId)
         
-        title = try container.decode(String.self, forKey: CodingKeys.title)
-        director = try container.decode(String.self, forKey: CodingKeys.director)
+        title = try container.decode(String.self, forKey: .title)
+        director = try container.decodeIfPresent(String.self, forKey: .director)
         
         if let releaseDateString = try container.decodeIfPresent(String.self, forKey: .releaseDate) {
         releaseDate = DateFormatter.moviesAPIDateFormatter.date(from: releaseDateString)

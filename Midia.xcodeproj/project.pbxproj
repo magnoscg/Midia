@@ -36,6 +36,8 @@
 		5501156B2246A1EA0027A8FB /* MovieCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550115692246A1550027A8FB /* MovieCollection.swift */; };
 		5501156C2246A2C70027A8FB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501155E22464F600027A8FB /* Movie.swift */; };
 		5501156E2246A7EA0027A8FB /* movieItunesExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 5501156D2246A7EA0027A8FB /* movieItunesExample.json */; };
+		550115702246B11D0027A8FB /* ItunesMoviesAPIConsumerAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501156F2246B11D0027A8FB /* ItunesMoviesAPIConsumerAlamofire.swift */; };
+		550115722246B1470027A8FB /* ItunesMoviesAPIConsumerNSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550115712246B1470027A8FB /* ItunesMoviesAPIConsumerNSURLSession.swift */; };
 		55103BAB22383E460054556D /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103BAA22383E460054556D /* FavoriteTableViewCell.swift */; };
 		55103BAF223851370054556D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55103BAD223851370054556D /* Model.xcdatamodeld */; };
 		55103BB1223855210054556D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103BB0223855210054556D /* CoreDataStack.swift */; };
@@ -105,6 +107,8 @@
 		55011567224675E00027A8FB /* MovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTests.swift; sourceTree = "<group>"; };
 		550115692246A1550027A8FB /* MovieCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollection.swift; sourceTree = "<group>"; };
 		5501156D2246A7EA0027A8FB /* movieItunesExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movieItunesExample.json; sourceTree = "<group>"; };
+		5501156F2246B11D0027A8FB /* ItunesMoviesAPIConsumerAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMoviesAPIConsumerAlamofire.swift; sourceTree = "<group>"; };
+		550115712246B1470027A8FB /* ItunesMoviesAPIConsumerNSURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMoviesAPIConsumerNSURLSession.swift; sourceTree = "<group>"; };
 		55103BAA22383E460054556D /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
 		55103BAE223851370054556D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		55103BB0223855210054556D /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 				1427A5E422287C5A000F2E59 /* MediaItemProvider.swift */,
 				55FADC51222DC8CF002C3EBB /* GoogleBooksAPIConsumerURLSession.swift */,
 				555BB89D222DDE8F004A18B5 /* GoogleBooksAPIConsumerAlamofire.swift */,
+				5501156F2246B11D0027A8FB /* ItunesMoviesAPIConsumerAlamofire.swift */,
+				550115712246B1470027A8FB /* ItunesMoviesAPIConsumerNSURLSession.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -512,6 +518,7 @@
 			files = (
 				5501156A2246A1550027A8FB /* MovieCollection.swift in Sources */,
 				1427A5902225E04C000F2E59 /* HomeViewController.swift in Sources */,
+				550115722246B1470027A8FB /* ItunesMoviesAPIConsumerNSURLSession.swift in Sources */,
 				55F6B02C22457CBD007ED259 /* FavoritesViewController.swift in Sources */,
 				55103BAF223851370054556D /* Model.xcdatamodeld in Sources */,
 				55C8E95C222F1D0E00D954DD /* DetailViewController.swift in Sources */,
@@ -528,6 +535,7 @@
 				5501155F22464F600027A8FB /* Movie.swift in Sources */,
 				55FADC54222DD637002C3EBB /* Constants.swift in Sources */,
 				55C8E958222F0CEB00D954DD /* SearchViewController.swift in Sources */,
+				550115702246B11D0027A8FB /* ItunesMoviesAPIConsumerAlamofire.swift in Sources */,
 				55103BB1223855210054556D /* CoreDataStack.swift in Sources */,
 				1490EFF52224914D00866151 /* Book.swift in Sources */,
 				1427A5B02225FCB7000F2E59 /* MediaItemCollectionViewCell.swift in Sources */,

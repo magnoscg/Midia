@@ -37,4 +37,41 @@ struct GoogleBooksAPIConstant {
         
         return components.url!
     }
+    
+}
+
+struct ItunesMoviesAPIConstant {
+    
+    private static let media = "movie"
+    private static let attribute = "movieTerm"
+    private static let country = "es"
+    
+    
+    static func getAbsoluteURL(withQueryParams queryParams: [String]) -> URL{
+        
+        var components = URLComponents()
+        components.scheme = "https"
+        components.host = "itunes.apple.com"
+        components.path = "/search"
+        components.queryItems = [URLQueryItem(name: "media", value: media)]
+        components.queryItems = [URLQueryItem(name: "attribute", value: attribute)]
+        components.queryItems = [URLQueryItem(name: "country", value: country)]
+        components.queryItems?.append(URLQueryItem(name: "term", value: queryParams.joined(separator: "+")))
+        
+        return components.url!
+    }
+    
+    static func urlForMovie(withId movieId: String) -> URL {
+        
+        var components = URLComponents()
+        components.scheme = "https"
+        components.host = "itunes.apple.com"
+        components.path = "/lookup"
+        components.queryItems = [URLQueryItem(name: "id", value: movieId)]
+        
+        
+        return components.url!
+    }
+    
+    
 }

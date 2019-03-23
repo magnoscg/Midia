@@ -18,7 +18,7 @@ class MovieTests: XCTestCase {
     override func setUp() {
         super.setUp()
         
-        bestMovieEver = Movie(movieId: 1, title: "Matrix", director: "Hermanas Wachowski", releaseDate: Date(timeIntervalSinceNow: 12313), description: "Un programador pirata recibe un día una misteriosa visita... Nada más se debe contar de la sinopsis de Matrix", coverURL: coverURL, genreName: "Ciencia ficcion", country: "USA", price: 3.99, previewURL: nil, rentalPrice: 1.99)
+        bestMovieEver = Movie(movieId: 1, title: "Matrix", director: "Lilly Wachowski, Lana Wachowski", releaseDate: Date(timeIntervalSinceNow: 12313), description: "Un programador pirata recibe un día una misteriosa visita... Nada más se debe contar de la sinopsis de Matrix", coverURL: coverURL, genreName: "Ciencia ficcion", country: "USA", price: 3.99, previewURL: nil, rentalPrice: 1.99)
     }
     
     func testMovieExistence() {
