@@ -73,12 +73,13 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
-Info.plist
+
 ### Xcode ###
 # Xcode
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## User settings
+*.plist
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 
