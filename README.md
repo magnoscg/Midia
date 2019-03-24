@@ -8,6 +8,10 @@ An IOS app written in swift 4.2
 
 This app allow you to search movies from Itunes API and add them to favorites.
 
+# Demo      
+
+![Demo App](https://github.com/magnoscg/Midia/blob/master/images/Midia.gif)
+
 # CocoaPods
 
 - [Alamofire: ](https://github.com/Alamofire/Alamofire)Elegant HTTP Networking in Swift. 
