@@ -13,7 +13,7 @@ class ItunesMoviesAPIConsumerAlamofire: MediaItemAPIConsumable {
     func getLastestMediaItems(onSuccess success: @escaping ([MediaItemProvidable]) -> Void, failure: @escaping (Error?) -> Void) {
         
         //print(ItunesMoviesAPIConstant.getAbsoluteURL(withQueryParams: ["2019"]))
-        Alamofire.request(ItunesMoviesAPIConstant.getAbsoluteURL(withQueryParams: ["top"])).responseData { (response) in
+        Alamofire.request(ItunesMoviesAPIConstant.getAbsoluteURL(withQueryParams: ["Star Wars"])).responseData { (response) in
             switch response.result {
             case .failure(let error):
                 failure(error)
