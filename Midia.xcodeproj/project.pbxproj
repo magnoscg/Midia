@@ -62,6 +62,7 @@
 		55C8E95C222F1D0E00D954DD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8E95B222F1D0E00D954DD /* DetailViewController.swift */; };
 		55C8E960222F3BBC00D954DD /* MediaItemDetailedProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8E95F222F3BBC00D954DD /* MediaItemDetailedProvidable.swift */; };
 		55EBE9552247B0C500776239 /* ItunesMoviesAPIConsumerAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501156F2246B11D0027A8FB /* ItunesMoviesAPIConsumerAlamofire.swift */; };
+		55EBE957224804A300776239 /* MovieManaged+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBE956224804A300776239 /* MovieManaged+Mapping.swift */; };
 		55F6B02C22457CBD007ED259 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6B02B22457CBD007ED259 /* FavoritesViewController.swift */; };
 		55FADC52222DC8CF002C3EBB /* GoogleBooksAPIConsumerURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FADC51222DC8CF002C3EBB /* GoogleBooksAPIConsumerURLSession.swift */; };
 		55FADC54222DD637002C3EBB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FADC53222DD637002C3EBB /* Constants.swift */; };
@@ -126,6 +127,7 @@
 		55C8E959222F1CD700D954DD /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		55C8E95B222F1D0E00D954DD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		55C8E95F222F3BBC00D954DD /* MediaItemDetailedProvidable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemDetailedProvidable.swift; sourceTree = "<group>"; };
+		55EBE956224804A300776239 /* MovieManaged+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieManaged+Mapping.swift"; sourceTree = "<group>"; };
 		55F6B02B22457CBD007ED259 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		55FADC51222DC8CF002C3EBB /* GoogleBooksAPIConsumerURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBooksAPIConsumerURLSession.swift; sourceTree = "<group>"; };
 		55FADC53222DD637002C3EBB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 				55103BAD223851370054556D /* Model.xcdatamodeld */,
 				55103BB0223855210054556D /* CoreDataStack.swift */,
 				55103BB4223863C20054556D /* BookManaged+Mapping.swift */,
+				55EBE956224804A300776239 /* MovieManaged+Mapping.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -542,6 +545,7 @@
 				1427A5B02225FCB7000F2E59 /* MediaItemCollectionViewCell.swift in Sources */,
 				1427A58D2225D154000F2E59 /* DateFormatter+Custom.swift in Sources */,
 				55103BB3223857290054556D /* CoreDataStorageManager.swift in Sources */,
+				55EBE957224804A300776239 /* MovieManaged+Mapping.swift in Sources */,
 				55C8E960222F3BBC00D954DD /* MediaItemDetailedProvidable.swift in Sources */,
 				559D1081223715BD005CB574 /* FavoritesProvidable.swift in Sources */,
 				1427A5E12228787F000F2E59 /* Game.swift in Sources */,

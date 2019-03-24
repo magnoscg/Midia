@@ -22,7 +22,9 @@ extension BookManaged {
         let url: URL? = coverURL != nil ? URL(string: coverURL!) : nil
         
             
-            return Book(bookId: bookId!, title: bookTitle!, authors: authorsList, publishedDate: publishDate, description: bookDescription, coverUrl: url , rating: rating, numberOfReviews: Int (numberOfReviews), price: price)
+        return Book(bookId: bookId!, title: bookTitle!, authors: authorsList, publishedDate: publishedDate, description: bookDescription, coverUrl: url, rating: rating, numberOfReviews: Int(numberOfReviews), price: price)
+        
+
             
         }
 

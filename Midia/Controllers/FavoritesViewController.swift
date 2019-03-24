@@ -19,7 +19,7 @@ class FavoritesViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
-        if let storedFavorites = StorageManager.shared.getFavorites() {
+        if let storedFavorites = StorageManager.sharedMovie.getFavorites() {
             favorites = storedFavorites
             tableView.reloadData()
         }

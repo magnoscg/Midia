@@ -41,7 +41,8 @@ class DetailViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        if let favorite = StorageManager.shared.getFavorite(byId: mediaItemId) {
+        
+        if let favorite = StorageManager.sharedMovie.getFavorite(byId: mediaItemId) {
             detailedMediaItem = favorite
             syncViewWithModel()
             loadingView.isHidden = true
@@ -124,10 +125,10 @@ class DetailViewController: UIViewController {
         }
         isFavorite.toggle()
         if isFavorite {
-            StorageManager.shared.add(favorite: favorite)
+            StorageManager.sharedMovie.add(favorite: favorite)
             toggleFavoriteButton.setTitle("Remove from Favorites", for: .normal)
         } else {
-            StorageManager.shared.remove(favoriteWithId: favorite.mediaItemId)
+            StorageManager.sharedMovie.remove(favoriteWithId: favorite.mediaItemId)
             toggleFavoriteButton.setTitle("Add favorite", for: .normal)
         }
     }

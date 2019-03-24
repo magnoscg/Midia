@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G5019" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Author" representedClassName="Author" syncable="YES" codeGenerationType="class">
-        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullName" attributeType="String" syncable="YES"/>
         <relationship name="book" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="authors" inverseEntity="Book" syncable="YES"/>
     </entity>
     <entity name="Book" representedClassName="BookManaged" syncable="YES" codeGenerationType="class">
@@ -11,12 +11,26 @@
         <attribute name="coverURL" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="numberOfReviews" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="publishDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="publishedDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="rating" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
-        <relationship name="authors" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Author" inverseName="book" inverseEntity="Author" syncable="YES"/>
+        <relationship name="authors" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Author" inverseName="book" inverseEntity="Author" syncable="YES"/>
+    </entity>
+    <entity name="Movie" representedClassName="MovieManaged" syncable="YES" codeGenerationType="class">
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coverURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="director" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="genreName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieId" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="movieTitle" attributeType="String" syncable="YES"/>
+        <attribute name="previewURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="releaseDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="rentalPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Book" positionX="-63" positionY="-18" width="128" height="180"/>
-        <element name="Author" positionX="391.171875" positionY="-186.484375" width="128" height="75"/>
+        <element name="Author" positionX="15.6953125" positionY="-45.2578125" width="128" height="75"/>
+        <element name="Book" positionX="-442.375" positionY="-15.65625" width="128" height="180"/>
+        <element name="Movie" positionX="-216" positionY="45" width="128" height="210"/>
     </elements>
 </model>

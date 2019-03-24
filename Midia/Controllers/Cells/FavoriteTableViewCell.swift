@@ -8,7 +8,6 @@
 
 import UIKit
 import SDWebImage
-import CoreData
 
 class FavoriteTableViewCell: UITableViewCell {
     
