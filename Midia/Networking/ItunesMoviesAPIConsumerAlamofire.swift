@@ -12,6 +12,7 @@ import Alamofire
 class ItunesMoviesAPIConsumerAlamofire: MediaItemAPIConsumable {
     func getLastestMediaItems(onSuccess success: @escaping ([MediaItemProvidable]) -> Void, failure: @escaping (Error?) -> Void) {
         
+        //print(ItunesMoviesAPIConstant.getAbsoluteURL(withQueryParams: ["2019"]))
         Alamofire.request(ItunesMoviesAPIConstant.getAbsoluteURL(withQueryParams: ["top"])).responseData { (response) in
             switch response.result {
             case .failure(let error):
@@ -59,8 +60,11 @@ class ItunesMoviesAPIConsumerAlamofire: MediaItemAPIConsumable {
             case .success(let value):
                 do {
                     let decoder = JSONDecoder()
-                    let movie = try decoder.decode(Movie.self, from: value)
-                    success(movie)
+                    let movieCollection = try decoder.decode(MovieCollection.self, from: value)
+                    if let movie = movieCollection.results?.first {
+                        success(movie)
+                    }
+                    
                 }catch {
                     failure(error)
                 }

@@ -54,8 +54,8 @@ struct ItunesMoviesAPIConstant {
         components.host = "itunes.apple.com"
         components.path = "/search"
         components.queryItems = [URLQueryItem(name: "media", value: media)]
-        components.queryItems = [URLQueryItem(name: "attribute", value: attribute)]
-        components.queryItems = [URLQueryItem(name: "country", value: country)]
+        components.queryItems?.append(URLQueryItem(name: "attribute", value: attribute))
+        components.queryItems?.append(URLQueryItem(name: "country", value: country))
         components.queryItems?.append(URLQueryItem(name: "term", value: queryParams.joined(separator: "+")))
         
         return components.url!
@@ -68,7 +68,7 @@ struct ItunesMoviesAPIConstant {
         components.host = "itunes.apple.com"
         components.path = "/lookup"
         components.queryItems = [URLQueryItem(name: "id", value: movieId)]
-        
+        components.queryItems?.append(URLQueryItem(name: "country", value: country))
         
         return components.url!
     }

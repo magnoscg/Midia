@@ -112,8 +112,6 @@ extension Movie: MediaItemDetailedProvidable {
     var creationDate: Date? {
         return releaseDate
     }
-    
-    
-    
+
 }
 

@@ -14,7 +14,7 @@ import Alamofire
 class GoogleBooksAPIConsumerAlamofire: MediaItemAPIConsumable {
     
     func getLastestMediaItems(onSuccess success: @escaping ([MediaItemProvidable]) -> Void, failure: @escaping (Error?) -> Void) {
-        
+        print(GoogleBooksAPIConstant.getAbsoluteURL(withQueryParams: ["2019"]))
         Alamofire.request(GoogleBooksAPIConstant.getAbsoluteURL(withQueryParams: ["2019"])).responseData { (response) in
             
             switch response.result {
