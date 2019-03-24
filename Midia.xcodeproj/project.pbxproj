@@ -61,6 +61,7 @@
 		55C8E95A222F1CD700D954DD /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C8E959222F1CD700D954DD /* Detail.storyboard */; };
 		55C8E95C222F1D0E00D954DD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8E95B222F1D0E00D954DD /* DetailViewController.swift */; };
 		55C8E960222F3BBC00D954DD /* MediaItemDetailedProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8E95F222F3BBC00D954DD /* MediaItemDetailedProvidable.swift */; };
+		55EBE9552247B0C500776239 /* ItunesMoviesAPIConsumerAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501156F2246B11D0027A8FB /* ItunesMoviesAPIConsumerAlamofire.swift */; };
 		55F6B02C22457CBD007ED259 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6B02B22457CBD007ED259 /* FavoritesViewController.swift */; };
 		55FADC52222DC8CF002C3EBB /* GoogleBooksAPIConsumerURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FADC51222DC8CF002C3EBB /* GoogleBooksAPIConsumerURLSession.swift */; };
 		55FADC54222DD637002C3EBB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FADC53222DD637002C3EBB /* Constants.swift */; };
@@ -572,6 +573,7 @@
 				5501156B2246A1EA0027A8FB /* MovieCollection.swift in Sources */,
 				1490F0202224A37700866151 /* BookCollection.swift in Sources */,
 				559D107A22370B31005CB574 /* MediaItemDetailedProvidable.swift in Sources */,
+				55EBE9552247B0C500776239 /* ItunesMoviesAPIConsumerAlamofire.swift in Sources */,
 				1427A5E622287C5A000F2E59 /* MediaItemProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

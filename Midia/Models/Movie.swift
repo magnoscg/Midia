@@ -82,6 +82,27 @@ extension Movie: Codable {
         
     }
     
+    func encode(to encoder: Encoder) throws {
+        
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        
+        try container.encode(movieId, forKey: .movieId)
+        try container.encode(title, forKey: .title)
+        try container.encodeIfPresent(director, forKey: .director)
+        
+        if let releaseDate = releaseDate {
+            try container.encode(DateFormatter.moviesAPIDateFormatter.string(from: releaseDate), forKey: .releaseDate)
+        }
+        try container.encodeIfPresent(description, forKey: .description)
+        try container.encodeIfPresent(coverURL, forKey: .coverURL)
+        try container.encodeIfPresent(genreName, forKey: .genreName)
+        try container.encodeIfPresent(country, forKey: .country)
+        try container.encodeIfPresent(price, forKey: .price)
+        try container.encodeIfPresent(previewURL, forKey: .previewURL)
+        try container.encodeIfPresent(rentalPrice, forKey: .rentalPrice)
+        
+    }
+    
 }
 
 extension Movie: MediaItemProvidable {
