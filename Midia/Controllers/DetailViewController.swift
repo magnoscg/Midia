@@ -95,6 +95,8 @@ class DetailViewController: UIViewController {
             numberOfReviewsLabel.text = "\(numberOfReviews) reviews"
         }else {
             ratingsContainerView.isHidden = true
+            ratingLabel.isHidden = true
+            numberOfReviewsLabel.isHidden = true
         }
         if let creationDate = mediaItem.creationDate {
             creationDateLabel.text = DateFormatter.booksAPIDateFormatter.string(from: creationDate)
