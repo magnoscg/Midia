@@ -17,4 +17,3 @@ This app allow you to search movies from Itunes API and add them to favorites.
 - [Alamofire: ](https://github.com/Alamofire/Alamofire)Elegant HTTP Networking in Swift. 
 - [SdWebImage:](https://github.com/SDWebImage/SDWebImage) Provides an async image downloader with cache support
 
-Use Cocoapods to install these dependencies `pod install`
