@@ -16,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         guard let tabBarController = window?.rootViewController as? UITabBarController,
                 let homeViewController = tabBarController.viewControllers?.first as? HomeViewController,
-                let searchViewController = tabBarController.viewControllers?[1] as? SearchViewController else {
+                let searchViewController = tabBarController.viewControllers?[1] as? SearchViewController,
+                let favouriteViewController = tabBarController.viewControllers?[2] as? FavouritesViewController else {
             fatalError("Wrong initial setup")
         }
         
@@ -24,8 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         homeViewController.mediaItemProvider = currentMediaItemProvider
         searchViewController.mediaItemProvider = currentMediaItemProvider
+        favouriteViewController.mediaItemProvider = currentMediaItemProvider
         return true
     }
-
 }
 

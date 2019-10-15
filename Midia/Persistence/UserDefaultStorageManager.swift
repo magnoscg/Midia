@@ -8,7 +8,7 @@
 
 import Foundation
 
-class UserDefaultStorageManager: FavoritesProvidable {
+class UserDefaultStorageManager: FavouritesProvidable {
     
     let userDefaults = UserDefaults.standard
     let mediaItemKind: MediaItemKind
@@ -22,7 +22,7 @@ class UserDefaultStorageManager: FavoritesProvidable {
         self.favoritesKey = "favorite\(mediaItemKind)"
     }
     
-    func getFavorites() -> [MediaItemDetailedProvidable]? {
+    func getFavourites() -> [MediaItemDetailedProvidable]? {
         if let favoritesData = userDefaults.data(forKey: favoritesKey) {
             switch mediaItemKind {
             case .book:
@@ -39,7 +39,7 @@ class UserDefaultStorageManager: FavoritesProvidable {
     
     func getFavorite(byId favoriteId: String) -> MediaItemDetailedProvidable? {
         var retrieved: MediaItemDetailedProvidable? = nil
-        if let favorites = getFavorites() {
+        if let favorites = getFavourites() {
             retrieved = favorites.filter({ $0.mediaItemId == favoriteId}).first
         }
         return retrieved
@@ -49,7 +49,7 @@ class UserDefaultStorageManager: FavoritesProvidable {
         guard getFavorite(byId: favorite.mediaItemId) == nil else {
             return
         }
-        if var favorites = getFavorites() {
+        if var favorites = getFavourites() {
             favorites.append(favorite)
             // guardar
             save(favorites)
@@ -62,7 +62,7 @@ class UserDefaultStorageManager: FavoritesProvidable {
     
     func remove(favoriteWithId favoriteId: String) {
         
-        if var favorites = getFavorites() {
+        if var favorites = getFavourites() {
             for ( index, favorite) in favorites.enumerated() {
                 if favoriteId == favorite.mediaItemId {
                     favorites.remove(at: index)

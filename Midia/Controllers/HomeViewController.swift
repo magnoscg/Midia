@@ -25,6 +25,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
     @IBOutlet weak var statusLabel: UILabel!
+    @IBOutlet weak var scChooseMediaItem: UISegmentedControl!
     
     var state: MediaItemControllerState = .ready {
         willSet {
@@ -55,10 +56,30 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        config()
+        
+    }
+    
+    @IBAction func chooseMediaItemKind(_ sender: Any) {
+        switch scChooseMediaItem.selectedSegmentIndex {
+        case 0:
+            self.mediaItemProvider = MediaItemProvider(withMediaItemKind: .movie)
+            config()
+            break
+        case 1:
+            self.mediaItemProvider = MediaItemProvider(withMediaItemKind: .book)
+            config()
+            break
+        default:
+            break
+        }
+    }
+    
+    func config() {
+        
         state = .loading
         mediaItemProvider.getHomeMediaItems(onSuccess: { [weak self] (mediaItems) in
-
+            
             self?.mediaItems = mediaItems
             self?.state = mediaItems.count > 0 ? .ready : .noResults
         }) { [weak self] (error) in

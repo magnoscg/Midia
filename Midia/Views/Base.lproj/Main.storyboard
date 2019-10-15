@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="UiW-Qb-zH5">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="87" width="414" height="726"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="TzK-y6-Pxa">
                                     <size key="itemSize" width="150" height="200"/>
@@ -78,17 +78,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="j8c-E7-AnN">
+                                <rect key="frame" x="265" y="54" width="129" height="29"/>
+                                <segments>
+                                    <segment title="Movies"/>
+                                    <segment title="Books"/>
+                                </segments>
+                                <connections>
+                                    <action selector="chooseMediaItemKind:" destination="BYZ-38-t0r" eventType="valueChanged" id="NjR-Aa-lJL"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="UiW-Qb-zH5" firstAttribute="top" secondItem="j8c-E7-AnN" secondAttribute="bottom" constant="5" id="0xs-po-qfT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X86-kQ-Bx7" secondAttribute="trailing" constant="15" id="22L-lv-e7k"/>
                             <constraint firstItem="UiW-Qb-zH5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5rF-qV-d0m"/>
-                            <constraint firstItem="UiW-Qb-zH5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="870-dt-lSN"/>
                             <constraint firstItem="X86-kQ-Bx7" firstAttribute="top" secondItem="g80-p2-WnL" secondAttribute="bottom" constant="10" id="9fw-lo-QmD"/>
                             <constraint firstItem="UiW-Qb-zH5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jcm-IM-n5n"/>
                             <constraint firstItem="g80-p2-WnL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VGL-ms-RMH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j8c-E7-AnN" secondAttribute="trailing" constant="20" id="XQc-Ye-Shk"/>
                             <constraint firstItem="g80-p2-WnL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="az8-Qk-uYf"/>
+                            <constraint firstItem="j8c-E7-AnN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="265" id="d5I-jV-Q6m"/>
                             <constraint firstItem="UiW-Qb-zH5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="gDM-0V-wJQ"/>
+                            <constraint firstItem="j8c-E7-AnN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="xnk-o3-eQu"/>
                             <constraint firstItem="X86-kQ-Bx7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="zil-Dl-sFS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -97,6 +110,7 @@
                     <connections>
                         <outlet property="activityIndicatorView" destination="g80-p2-WnL" id="j3S-BY-np3"/>
                         <outlet property="collectionView" destination="UiW-Qb-zH5" id="Ndp-Xt-Kdf"/>
+                        <outlet property="scChooseMediaItem" destination="j8c-E7-AnN" id="rV6-g7-TLH"/>
                         <outlet property="statusLabel" destination="X86-kQ-Bx7" id="JC4-bM-jD7"/>
                     </connections>
                 </viewController>
@@ -192,10 +206,10 @@
             </objects>
             <point key="canvasLocation" x="992.79999999999995" y="704.79760119940033"/>
         </scene>
-        <!--Favorites View Controller-->
+        <!--Favourites View Controller-->
         <scene sceneID="oU8-CT-xr2">
             <objects>
-                <viewController id="QUC-kr-nJS" customClass="FavoritesViewController" customModule="Midia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QUC-kr-nJS" customClass="FavouritesViewController" customModule="Midia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sBJ-c6-wgI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
