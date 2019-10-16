@@ -11,7 +11,7 @@ import CoreData
 
 // TODO: capa de abstraccion para usar siempre media items
 
-class CoreDataStorageManager: FavouritesProvidable {
+class CoreDataStorageManager: FavoritesProvidable {
     
     let mediaItemKind: MediaItemKind
     let stack = CoreDataStack.sharedInstance
@@ -21,7 +21,7 @@ class CoreDataStorageManager: FavouritesProvidable {
     }
     
     
-    func getFavourites() -> [MediaItemDetailedProvidable]? {
+    func getFavorites() -> [MediaItemDetailedProvidable]? {
         
         let context = stack.persistentContainer.viewContext
         

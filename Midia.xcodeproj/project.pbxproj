@@ -53,7 +53,7 @@
 		559D107B22370B37005CB574 /* GoogleBooksAPIConsumerURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FADC51222DC8CF002C3EBB /* GoogleBooksAPIConsumerURLSession.swift */; };
 		559D107C22370B4A005CB574 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555BB8A3222DE8F8004A18B5 /* UIImageView.swift */; };
 		559D107D22370B4E005CB574 /* MediaItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427A5AF2225FCB7000F2E59 /* MediaItemCollectionViewCell.swift */; };
-		559D1081223715BD005CB574 /* FavouritesProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D1080223715BD005CB574 /* FavouritesProvidable.swift */; };
+		559D1081223715BD005CB574 /* FavoritesProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D1080223715BD005CB574 /* FavoritesProvidable.swift */; };
 		559D108322371792005CB574 /* UserDefaultStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D108222371792005CB574 /* UserDefaultStorageManager.swift */; };
 		559D108522371F94005CB574 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D108422371F94005CB574 /* StorageManager.swift */; };
 		55C8E956222F09D700D954DD /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C8E955222F09D700D954DD /* placeholder.png */; };
@@ -63,7 +63,7 @@
 		55C8E960222F3BBC00D954DD /* MediaItemDetailedProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8E95F222F3BBC00D954DD /* MediaItemDetailedProvidable.swift */; };
 		55EBE9552247B0C500776239 /* ItunesMoviesAPIConsumerAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501156F2246B11D0027A8FB /* ItunesMoviesAPIConsumerAlamofire.swift */; };
 		55EBE957224804A300776239 /* MovieManaged+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBE956224804A300776239 /* MovieManaged+Mapping.swift */; };
-		55F6B02C22457CBD007ED259 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6B02B22457CBD007ED259 /* FavouritesViewController.swift */; };
+		55F6B02C22457CBD007ED259 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6B02B22457CBD007ED259 /* FavoritesViewController.swift */; };
 		55FADC52222DC8CF002C3EBB /* GoogleBooksAPIConsumerURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FADC51222DC8CF002C3EBB /* GoogleBooksAPIConsumerURLSession.swift */; };
 		55FADC54222DD637002C3EBB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FADC53222DD637002C3EBB /* Constants.swift */; };
 		5D6E8473DDFD620E598B2DFB /* Pods_Midia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDBDACD5F39F94CDBB57AD9 /* Pods_Midia.framework */; };
@@ -119,7 +119,7 @@
 		555BB89D222DDE8F004A18B5 /* GoogleBooksAPIConsumerAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBooksAPIConsumerAlamofire.swift; sourceTree = "<group>"; };
 		555BB8A1222DE354004A18B5 /* MediaItemProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemProviderTests.swift; sourceTree = "<group>"; };
 		555BB8A3222DE8F8004A18B5 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
-		559D1080223715BD005CB574 /* FavouritesProvidable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesProvidable.swift; sourceTree = "<group>"; };
+		559D1080223715BD005CB574 /* FavoritesProvidable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesProvidable.swift; sourceTree = "<group>"; };
 		559D108222371792005CB574 /* UserDefaultStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStorageManager.swift; sourceTree = "<group>"; };
 		559D108422371F94005CB574 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		55C8E955222F09D700D954DD /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		55C8E95B222F1D0E00D954DD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		55C8E95F222F3BBC00D954DD /* MediaItemDetailedProvidable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemDetailedProvidable.swift; sourceTree = "<group>"; };
 		55EBE956224804A300776239 /* MovieManaged+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieManaged+Mapping.swift"; sourceTree = "<group>"; };
-		55F6B02B22457CBD007ED259 /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		55F6B02B22457CBD007ED259 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		55FADC51222DC8CF002C3EBB /* GoogleBooksAPIConsumerURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBooksAPIConsumerURLSession.swift; sourceTree = "<group>"; };
 		55FADC53222DD637002C3EBB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5BDBDACD5F39F94CDBB57AD9 /* Pods_Midia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Midia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,7 +247,7 @@
 			children = (
 				1427A58F2225E04C000F2E59 /* HomeViewController.swift */,
 				55C8E957222F0CEB00D954DD /* SearchViewController.swift */,
-				55F6B02B22457CBD007ED259 /* FavouritesViewController.swift */,
+				55F6B02B22457CBD007ED259 /* FavoritesViewController.swift */,
 				55C8E95B222F1D0E00D954DD /* DetailViewController.swift */,
 				1427A5B12225FD9D000F2E59 /* Cells */,
 			);
@@ -313,7 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				55103BB2223857290054556D /* CoreDataStorageManager.swift */,
-				559D1080223715BD005CB574 /* FavouritesProvidable.swift */,
+				559D1080223715BD005CB574 /* FavoritesProvidable.swift */,
 				559D108222371792005CB574 /* UserDefaultStorageManager.swift */,
 				559D108422371F94005CB574 /* StorageManager.swift */,
 				55103BAC223851190054556D /* CoreData */,
@@ -523,7 +523,7 @@
 				5501156A2246A1550027A8FB /* MovieCollection.swift in Sources */,
 				1427A5902225E04C000F2E59 /* HomeViewController.swift in Sources */,
 				550115722246B1470027A8FB /* ItunesMoviesAPIConsumerNSURLSession.swift in Sources */,
-				55F6B02C22457CBD007ED259 /* FavouritesViewController.swift in Sources */,
+				55F6B02C22457CBD007ED259 /* FavoritesViewController.swift in Sources */,
 				55103BAF223851370054556D /* Model.xcdatamodeld in Sources */,
 				55C8E95C222F1D0E00D954DD /* DetailViewController.swift in Sources */,
 				555BB8A4222DE8F8004A18B5 /* UIImageView.swift in Sources */,
@@ -547,7 +547,7 @@
 				55103BB3223857290054556D /* CoreDataStorageManager.swift in Sources */,
 				55EBE957224804A300776239 /* MovieManaged+Mapping.swift in Sources */,
 				55C8E960222F3BBC00D954DD /* MediaItemDetailedProvidable.swift in Sources */,
-				559D1081223715BD005CB574 /* FavouritesProvidable.swift in Sources */,
+				559D1081223715BD005CB574 /* FavoritesProvidable.swift in Sources */,
 				1427A5E12228787F000F2E59 /* Game.swift in Sources */,
 				1427A5E822287CDB000F2E59 /* MediaItemKind.swift in Sources */,
 				55103BAB22383E460054556D /* FavoriteTableViewCell.swift in Sources */,

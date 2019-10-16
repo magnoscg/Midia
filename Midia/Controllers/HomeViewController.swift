@@ -21,7 +21,7 @@ class HomeViewController: UIViewController {
 
     var mediaItemProvider: MediaItemProvider!
     private var mediaItems: [MediaItemProvidable] = []
-
+    private var favoriteViewController: FavoritesViewController?
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
     @IBOutlet weak var statusLabel: UILabel!
@@ -64,11 +64,17 @@ class HomeViewController: UIViewController {
         switch scChooseMediaItem.selectedSegmentIndex {
         case 0:
             self.mediaItemProvider = MediaItemProvider(withMediaItemKind: .movie)
+            favoriteViewController?.mediaItemProvider = MediaItemProvider(withMediaItemKind: .movie)
             config()
+            StorageManager.setup(withMediaItemKind: .movie)
+            
             break
         case 1:
             self.mediaItemProvider = MediaItemProvider(withMediaItemKind: .book)
+            favoriteViewController?.mediaItemProvider = MediaItemProvider(withMediaItemKind: .book)
             config()
+            StorageManager.setup(withMediaItemKind: .book)
+            
             break
         default:
             break

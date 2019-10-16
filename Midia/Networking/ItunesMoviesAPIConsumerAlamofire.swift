@@ -57,19 +57,28 @@ class ItunesMoviesAPIConsumerAlamofire: MediaItemAPIConsumable {
             switch response.result {
             case .failure(let error):
                 failure(error)
-            case .success(let value):
-                do {
-                    let decoder = JSONDecoder()
-                    let movieCollection = try decoder.decode(MovieCollection.self, from: value)
-                    if let movie = movieCollection.results?.first {
-                        success(movie)
+            case .success(_):
+                if let data = response.data {
+                    do {
+                        let decoder = JSONDecoder()
+                        let movieCollection = try decoder.decode(MovieCollection.self, from: data)
+                        if let movie = movieCollection.results?.first {
+                            success(movie)
+                        } else {
+                            failure(ErrorItunes.notFound)
+                        }
+                        
+                    }catch {
+                        failure(error)
                     }
-                    
-                }catch {
-                    failure(error)
+                } else {
+                    fatalError("Expected data on a success call retriving a book by id \(mediaItemId)")
                 }
             }
         }
     }
-    
+}
+
+enum ErrorItunes: Error {
+    case notFound
 }

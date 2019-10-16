@@ -8,7 +8,7 @@
 
 import Foundation
 
-class UserDefaultStorageManager: FavouritesProvidable {
+class UserDefaultStorageManager: FavoritesProvidable {
     
     let userDefaults = UserDefaults.standard
     let mediaItemKind: MediaItemKind
@@ -22,7 +22,7 @@ class UserDefaultStorageManager: FavouritesProvidable {
         self.favoritesKey = "favorite\(mediaItemKind)"
     }
     
-    func getFavourites() -> [MediaItemDetailedProvidable]? {
+    func getFavorites() -> [MediaItemDetailedProvidable]? {
         if let favoritesData = userDefaults.data(forKey: favoritesKey) {
             switch mediaItemKind {
             case .book:
@@ -39,7 +39,7 @@ class UserDefaultStorageManager: FavouritesProvidable {
     
     func getFavorite(byId favoriteId: String) -> MediaItemDetailedProvidable? {
         var retrieved: MediaItemDetailedProvidable? = nil
-        if let favorites = getFavourites() {
+        if let favorites = getFavorites() {
             retrieved = favorites.filter({ $0.mediaItemId == favoriteId}).first
         }
         return retrieved
@@ -49,7 +49,7 @@ class UserDefaultStorageManager: FavouritesProvidable {
         guard getFavorite(byId: favorite.mediaItemId) == nil else {
             return
         }
-        if var favorites = getFavourites() {
+        if var favorites = getFavorites() {
             favorites.append(favorite)
             // guardar
             save(favorites)
@@ -62,7 +62,7 @@ class UserDefaultStorageManager: FavouritesProvidable {
     
     func remove(favoriteWithId favoriteId: String) {
         
-        if var favorites = getFavourites() {
+        if var favorites = getFavorites() {
             for ( index, favorite) in favorites.enumerated() {
                 if favoriteId == favorite.mediaItemId {
                     favorites.remove(at: index)
@@ -77,7 +77,6 @@ class UserDefaultStorageManager: FavouritesProvidable {
         do {
             switch mediaItemKind {
             case .book:
-                // no se debe hacer as
                 userDefaults.set(try encoder.encode(favorites as! [Book]), forKey: favoritesKey)
             
             case .movie:

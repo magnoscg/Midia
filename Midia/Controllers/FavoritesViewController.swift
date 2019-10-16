@@ -13,20 +13,20 @@ class FavoritesViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
 
     let favoriteCellReuseIdentifier = "favoriteCellReuseIdentifier"
-
+    
+    var mediaItemProvider: MediaItemProvider!
     var favorites: [MediaItemDetailedProvidable] = []
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
-        if let storedFavorites = StorageManager.sharedMovie.getFavorites() {
-            favorites = storedFavorites
-            tableView.reloadData()
-        }
+        if let storedFavorites = StorageManager.shared.getFavorites() {
+                favorites = storedFavorites
+                tableView.reloadData()
+            }
     }
-
+    
 }
-
 extension FavoritesViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

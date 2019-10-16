@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         guard let tabBarController = window?.rootViewController as? UITabBarController,
                 let homeViewController = tabBarController.viewControllers?.first as? HomeViewController,
                 let searchViewController = tabBarController.viewControllers?[1] as? SearchViewController,
-                let favouriteViewController = tabBarController.viewControllers?[2] as? FavouritesViewController else {
+                let favouriteViewController = tabBarController.viewControllers?[2] as? FavoritesViewController else {
             fatalError("Wrong initial setup")
         }
         
