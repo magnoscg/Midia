@@ -6,7 +6,8 @@
 
 An IOS app written in swift 4.2
 
-This app allow you to search movies from Itunes API and add them to favorites.
+This app allow you to search movies or books from Itunes API and google Books and add them to favorites.
+For Google Books need an Api key. Put your own api key at info.plist
 
 # Demo      
 
