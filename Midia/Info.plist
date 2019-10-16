@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>apiKey</key>
-	<string>AIzaSyBioerjAnxgmanbaPiOi45Xcb-khV7u5qw</string>
+	<string>API KEY</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
