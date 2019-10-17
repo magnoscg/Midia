@@ -10,7 +10,7 @@ import Foundation
 
 struct GoogleBooksAPIConstant {
     
-    private static let apiKey = Bundle.main.object(forInfoDictionaryKey: "apikey") as! String
+    private static let apiKey = Bundle.main.object(forInfoDictionaryKey: "apiKey") as! String
     
     static func getAbsoluteURL(withQueryParams queryParams: [String]) -> URL{
         
